@@ -46,13 +46,12 @@ def count_substring(string, sub_string):
         sub_string: (string)
     rerturn : int
     """
-
-    return 0
+    return string.count(sub_string)
 
 if __name__ == "__main__":
     main()
     string = "Hola Codo a Codo" #input().strip() 
-    sub_string = "codo" #input().strip()
+    sub_string = "Codo" #input().strip()
     
     count = count_substring(string, sub_string)
     print(count)
